@@ -13,7 +13,7 @@ const ProductCard = ({ title, productItem }) => {
   };
   const handelAdd = (productItem) => {
     dispatch(addToCart({ product: productItem, num: 1 }));
-    toast.success("Product has been added to cart!");
+    toast.success("Product has been saved!");
   };
   return (
     <Col md={3} sm={5} xs={10} className="product mtop">

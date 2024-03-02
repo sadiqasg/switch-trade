@@ -35,54 +35,55 @@ import watchSlide from "../Images/watch-07.png";
 
 export const SliderData = [
   {
-      id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: sofaSlide,
+    id: 1,
+    title: "Switch Trading",
+    desc: "Unlock the Value in Your Commodities, Swap for What You Need.",
+    cover: sofaSlide,
   },
   {
-      id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: phone08,
+    id: 2,
+    title: "Smart Trading Platform",
+    desc: "Turn Unused into Valuable: Simplify, Swap, Succeed with Switch Trade.",
+    cover: phone08,
   },
   {
-      id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: wireless01,
+    id: 3,
+    title: "Streamlined Barter Network",
+    desc: "Declutter, Exchange, Upgrade - Your Path to Smart Trading.",
+    cover: wireless01,
   },
   {
-      id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: watchSlide,
+    id: 4,
+    title: "Treasure Exchange Hub",
+    desc: "Trade Your Clutter, Transform Your Treasure.",
+    cover: watchSlide,
   },
 ];
+
 
 export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Hassle Free Exchange",
+    subtitle: "Trade without the stress. Just swap and go!",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
-    title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "No Money Needed",
+    subtitle: "No Cash, No Worry! Trade your items freely.",
     bg: "#ceebe9",
   },
   {
     icon: <ion-icon name="shield-half-outline"></ion-icon>,
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Secure Storage",
+    subtitle: "Keep your belongings safe until the perfect exchange.",
     bg: "#e2f2b2",
   },
   {
     icon: <ion-icon name="headset"></ion-icon>,
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "24/7 Support",
+    subtitle: "Help whenever you need it. Day or night, we've got you covered.",
     bg: "#d6e5fb",
   },
 ];
