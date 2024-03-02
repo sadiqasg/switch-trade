@@ -1,50 +1,56 @@
 footer {
-  background-color: #0f3460;
-  padding: 80px 0;
-  color: #fff;
+    background-color: #0f3460;
+    padding: 80px 0;
+    color: #fff;
 }
 
 footer .box {
-  padding: 0 20px;
+    padding: 0 20px;
 }
 
 footer h1 {
-  margin: 0;
-  font-size: 25px;
-  font-weight: 800;
-  width: max-content;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 800;
+    width: max-content;
 }
 
 footer .logo {
-  color: white;
-  display:flex;
-  align-items:center;
-  gap:5px;
-  margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
 }
 footer h2 {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 footer .row {
-  justify-content: center;
+    justify-content: center;
 }
 
 footer p {
-  font-size: 16px;
-  margin-bottom: 20px;
-  opacity: 0.5;
+    font-size: 16px;
+    margin-bottom: 20px;
+    opacity: 0.5;
 }
 
 footer h2 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 footer ul {
-  padding: 0;
+    padding: 0;
 }
 
 footer li {
-  margin-bottom: 10px;
-  opacity: 0.5;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.wider-modal .modal-dialog {
+    width: 80% !important;
+    max-width: 80%;
 }

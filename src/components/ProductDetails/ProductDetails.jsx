@@ -14,7 +14,7 @@ const ProductDetails = ({ selectedProduct }) => {
   };
   const handelAdd = (selectedProduct, quantity) => {
     dispatch(addToCart({ product: selectedProduct, num: quantity }));
-    toast.success("Product has been saved!");
+    toast.success("Item has been saved!");
   };
 
   return (
@@ -24,9 +24,9 @@ const ProductDetails = ({ selectedProduct }) => {
           <Col md={6}>
             <img loading="lazy" src={selectedProduct?.imgUrl} alt="" />
           </Col>
-          <Col md={6}>
+          <Col md={6} className="pt-5">
             <h2>{selectedProduct?.productName}</h2>
-            <div className="rate">
+            {/* <div className="rate">
               <div className="stars">
                 <i className="fa fa-star"></i>
                 <i className="fa fa-star"></i>
@@ -35,26 +35,27 @@ const ProductDetails = ({ selectedProduct }) => {
                 <i className="fa fa-star"></i>
               </div>
               <span>{selectedProduct?.avgRating} ratings</span>
-            </div>
+            </div> */}
             <div className="info">
-              <span className="price">${selectedProduct?.price}</span>
-              <span>category:{selectedProduct?.category}</span>
+              {/* <span className="price">${selectedProduct?.price}</span> */}
+              <p>posted by <strong>Admin</strong></p>
+              <span>Category: {selectedProduct?.category}</span>
             </div>
             <p>{selectedProduct?.shortDesc}</p>
-            <input
+            {/* <input
               className="qty-input"
               type="number"
               placeholder="Qty"
               value={quantity}
               onChange={handleQuantityChange}
-            />
+            /> */}
             <button
               aria-label="Add"
               type="submit"
               className="add"
               onClick={() => handelAdd(selectedProduct, quantity)}
             >
-              Add To Cart
+              Add To Saved
             </button>
           </Col>
         </Row>

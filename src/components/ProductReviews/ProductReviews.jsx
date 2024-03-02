@@ -18,7 +18,7 @@ const ProductReviews = ({ selectedProduct }) => {
             style={{ color: listSelected === "rev" ? "black" : "#9c9b9b" }}
             onClick={() => setListSelected("rev")}
           >
-            Reviews ({selectedProduct?.reviews.length})
+            Messages ({selectedProduct?.reviews.length})
           </li>
         </ul>
         {listSelected === "desc" ? (
@@ -27,8 +27,7 @@ const ProductReviews = ({ selectedProduct }) => {
           <div className="rates">
             {selectedProduct?.reviews.map((rate) => (
               <div className="rate-comment" key={rate.rating}>
-                <span>Jhon Doe</span>
-                <span>{rate.rating} (rating)</span>
+                <span>Jane Doe</span>
                 <p>{rate.text}</p>
               </div>
             ))}
